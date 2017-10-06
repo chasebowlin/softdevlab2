@@ -8,6 +8,11 @@ void power(int value, int exponent);
 
 
 int main () {
+
+	int testVal = 2
+	it testEx = 10
+
+	power(testVal, testEx);
 	
 }
 

@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void square(int value);
+void power(int value, int exponent);
 
 
 
@@ -11,8 +11,11 @@ int main () {
 	
 }
 
-void square(int value) {
-	int squareValue = value * value;
+void power(int value, int exponent) {
 
+	squareValue = value
+	for(int i = 1; i <= exponent; i++) {
+		int squareValue = squareValue * value;
+	}
 	cout << squareValue << endl;
 }
